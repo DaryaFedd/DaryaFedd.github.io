@@ -1,9 +1,46 @@
-body{ margin: 0;}
+body{ margin: 0;
+    background-image:url(badges/Обои\ для\ iPhone\ 2.png);
+}
 header{
-    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    font-weight:bold;
+    display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:space-around;
     background-color:#EEE6DC;
+    height: 70px;
 }
+.badges{
+    height: 20px;
+}
+.arrows{ height: 15px;
+}  
+h1{
+    font-weight:bold;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+}
+.basic{
+    text-align:center;
+    border-style:inset;
+    border-width: 1px;
+    border-color: black;
+    margin: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #eee6dc;;
+    height: 200px;
+}
+    
+    
+
+
+
+
+
 
