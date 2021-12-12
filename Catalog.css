@@ -1,0 +1,48 @@
+body {
+    background-color: #EEE6DC;
+}
+
+header {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.badges {
+    height: 40px;
+    padding:10px
+}
+
+h1 {
+    font-weight: normal;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 64px;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+}
+.product{
+    align-items: center;
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+}
+.product__image{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 245px;
+    height: 239px;
+}
+.product__name{
+font-size: 35px;
+}
+.product__price{
+font-size: 30px;
+}

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "DaryaFedd.github.io-1",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "..\\DaryaFedd.github.io\\img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DaryaFedd.github.io-1"
+	}
+}
