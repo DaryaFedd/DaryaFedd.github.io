@@ -8,17 +8,23 @@ header {
 }
 
 .badges {
-    height: 40px;
+    height: 30px;
     padding:10px
+}
+.badges:hover{
+    opacity: .5;
 }
 
 h1 {
-    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight:normal;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     text-align: center;
     font-size: 64px;
+  
+
 }
 .images {
     display: flex;
@@ -41,8 +47,8 @@ h1 {
     height: 239px;
 }
 .product__name{
-font-size: 35px;
+font-size: 30px;
 }
 .product__price{
-font-size: 30px;
+font-size: 25px;
 }

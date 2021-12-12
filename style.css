@@ -1,8 +1,12 @@
+/* GLOBAL */
+
 body {
     margin: 0;
     background-image: url(badges/Обои\ для\ iPhone\ 2.png);
     background-position: center;
 }
+
+/* HEADER */
 
 header {
     font-family: 'Playfair Display', serif;
@@ -23,7 +27,7 @@ header {
 
 .badges {
     height: 30px;
-
+   
 }
 
 .arrows {
@@ -31,6 +35,16 @@ header {
     align-items: left;
 }
 
+.menu-item {
+    color:#5E615E;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    opacity: .5;
+}
+
+/* COMMON STYLES */
 h1 {
     font-weight: normal;
     display: flex;
@@ -43,6 +57,8 @@ h1 {
 }
 
 
+
+
 .basic {
     display: flex;
     justify-content: center;
@@ -52,7 +68,7 @@ h1 {
 
 .basic__headline {
     padding: 100px 150px;
-    border: 5px solid #5E615E;
+    border: 3px solid #5E615E;
     box-sizing: border-box;
     background-color: #EEE6DC;
 }

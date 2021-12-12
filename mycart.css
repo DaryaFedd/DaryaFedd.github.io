@@ -7,7 +7,7 @@
 }
 h1{
     font-family:'Playfair Display';
- font-size: 44px;   
+ font-size: 64px;   
  margin-top: 40px;
  padding-left: 30px;
 }
@@ -16,34 +16,38 @@ menu{
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
-    font-size: 30px;
+    font-size: 40px;
     padding-right: 40px;
 }
-section{
-padding-top: 20px;
-padding-left: 40px;
-font-size: 20px;
-padding-bottom: 40px;
+.line{
+    width: 100%;
+}
+.product{
+    flex-wrap: wrap;
 flex-direction: column;
+padding: 30px;
+padding-bottom: 60px;
+max-width: 1500px;
+margin: auto;
 }
-.img{
-    height: 120px;
-    width: 120px;
+.image_product{
+    height: 220px;
+    width: 220px;
 }
-.txt{
-    font-family:'Playfair Display';
-    color: 5E615E;
-    padding-top: 10px;
+.product_name{
+    font-family:'Open Sans';
+    font-size: 30px;
+    align-items:center;
+    color:#5E615E;
+    
+
 }
 .price{
- font-size: 30px;
+font-size: 30px;
 display: flex; 
 flex-direction: column;
-padding-left: 35%;
-margin-block-start: -23%;
-}
-.price2{
-    align-items: center;
-    margin-left: 35%;
-  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
 }
