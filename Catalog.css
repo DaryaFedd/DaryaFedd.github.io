@@ -29,9 +29,9 @@ h1 {
 .images {
     display: flex;
     justify-content: space-around;
-    gap: 250px;
+    gap: 200px;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: auto;
 }
 .product{

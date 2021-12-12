@@ -23,11 +23,11 @@ menu{
     width: 100%;
 }
 .product{
-    flex-wrap: wrap;
+ flex-wrap: wrap;
 flex-direction: column;
-padding: 30px;
+align-items: left;
 padding-bottom: 60px;
-max-width: 1500px;
+max-width: 1300px;
 margin: auto;
 }
 .image_product{
