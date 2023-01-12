@@ -10,6 +10,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "DaryaFedd.github.io-1"
+		"liveServer.settings.multiRootWorkspaceName": "DaryaFedd.github.io-1",
+		"liveServer.settings.port": 5501
 	}
 }

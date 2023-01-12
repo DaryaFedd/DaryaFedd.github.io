@@ -1,20 +1,20 @@
 /* GLOBAL */
-
 body {
-    margin: 0;
-    background-image: url(badges/Обои\ для\ iPhone\ 2.png);
+    margin: 0cm;
+    background-image: url(badges/IMG_0032.JPG);
     background-position: center;
+    backdrop-filter: blur(8px);
 }
-
 /* HEADER */
 
 header {
     font-family: 'Playfair Display', serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 24px;
     line-height: 32px;
     display: flex;
+    letter-spacing: 0.135em;
 
     text-align: center;
     color: #5E615E;
@@ -26,13 +26,7 @@ header {
 }
 
 .badges {
-    height: 30px;
-   
-}
-
-.arrows {
-    height: 20px;
-    align-items: left;
+    height: 60px;
 }
 
 .menu-item {
@@ -52,7 +46,8 @@ h1 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 64px;
+    font-weight: 700;
     border: 10px;
 }
 .basic {
@@ -63,8 +58,92 @@ h1 {
 }
 
 .basic__headline {
-    padding: 100px 150px;
-    border: 2px solid #5E615E;
     box-sizing: border-box;
+    position: static;
+    width: 484px;
+    height: 250px;
+    left: 358px;
+    top: 193px;
+    box-sizing: border-box;
+/* Text */
+    background: #EEE6DC;
+    backdrop-filter: blur(2.5px);
+    border-radius: 6px;
+    border-style: 2px solid #5E615E;
     background-color: #EEE6DC;
+border: 2px solid #5E615E;
 }
+div{
+    background: linear-gradient(180deg, #EEE6DC 67.34%, #998b7f 100%);
+height: 1200px;
+top: 585px;
+left: 0;
+max-height: 1000px;
+overflow: hidden;
+}
+h2{ 
+
+font-family: 'Playfair Display';
+font-style: bold;
+font-weight: 600;
+font-size: 60px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.1em;
+padding-right: 50px;
+color: #ff5f3e;
+/* color */
+padding-left: 1200px;
+    padding-top: 120px;
+}
+img{
+   display: block;
+   position:relative;
+   top: -850px;
+   left: 50px;
+   padding: 50px;
+   filter: drop-shadow(5px 4px 20px rgba(0, 0, 0, 0.25));
+   border-radius: 60px;
+   height: 350px;
+
+}
+p{
+    padding-left: 1200px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 56px;
+    line-height: 60px;
+    display: flex;
+    align-items: stretch;
+    text-align: right;
+    letter-spacing: 0.1em;
+    padding-right: 50px;
+    color:#000000;
+}
+.Facts{
+    padding-left: 1300px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 55px;
+    line-height: 40px;
+    display: flex;
+    align-items: baseline;
+    text-align: right;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+    text-decoration:none;
+    color:#ff5f3e;
+}
+ .Facts:hover{
+    position: absolute;
+    color: #ffab3e; /* Цвет ссылки */
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; /* Время изменения цвета */
+ }
+
