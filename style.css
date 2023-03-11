@@ -2,8 +2,10 @@
 body {
     margin: 0cm;
     background-image: url(badges/IMG_0032.JPG);
+    backdrop-filter: blur(7px);
     background-position: center;
-    backdrop-filter: blur(8px);
+
+   
 }
 /* HEADER */
 
@@ -23,6 +25,9 @@ header {
     justify-content: space-around;
     background-color: #EEE6DC;
     height: 90px;
+    
+    
+    
 }
 
 .badges {
@@ -48,12 +53,17 @@ h1 {
     justify-content: center;
     font-size: 64px;
     font-weight: 700;
+    
+  
 }
 .basic {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
+
+  
 }
 
 .basic__headline {
@@ -66,11 +76,12 @@ h1 {
     box-sizing: border-box;
 /* Text */
     background: #EEE6DC;
-    backdrop-filter: blur(2.5px);
     border-radius: 6px;
     border-radius: 50px;
     background-color: #EEE6DC;
 border: 2px solid #5E615E;
+overflow: hidden
+
 }
 div{
     background: linear-gradient(180deg, #EEE6DC 67.34%, #998b7f 100%);
@@ -100,6 +111,7 @@ padding-top: 100px;
 }
 img{
    display: flex;
+   align-items: center;
    position:relative;
    top: -750px;
    left: 50px;
