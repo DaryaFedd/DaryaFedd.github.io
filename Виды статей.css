@@ -23,32 +23,23 @@ h1 {
     justify-content: space-around;
     text-align: center;
     font-size: 64px;
-  
-
 }
-.images {
-    display: flex;
-    justify-content: space-around;
-    gap: 200px;
-    flex-wrap: wrap;
-    max-width: 1300px;
-    margin: auto;
-}
-.product{
+.vid{
+    
     align-items: center;
     height: 10vh;
     padding: 10px;
     text-align: center;
 }
-.product__image{
-    padding-bottom: 10px;
-    padding-top: 30px;
-    width: 245px;
-    height: 239px;
+.vid__name{
+    font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: bold;
 }
-.product__name{
-font-size: 30px;
-}
-.product__price{
-font-size: 25px;
+.vid__text{
+ display: flex;
+ justify-content: space-around;
+ font-size: 40px;
+ text-align: justify;
+flex-direction: column;
 }

@@ -48,7 +48,6 @@ h1 {
     justify-content: center;
     font-size: 64px;
     font-weight: 700;
-    border: 10px;
 }
 .basic {
     display: flex;
@@ -69,7 +68,7 @@ h1 {
     background: #EEE6DC;
     backdrop-filter: blur(2.5px);
     border-radius: 6px;
-    border-style: 2px solid #5E615E;
+    border-radius: 50px;
     background-color: #EEE6DC;
 border: 2px solid #5E615E;
 }
@@ -80,12 +79,13 @@ top: 585px;
 left: 0;
 max-height: 1000px;
 overflow: hidden;
+border-radius: 80px;
 }
 h2{ 
 
 font-family: 'Playfair Display';
 font-style: bold;
-font-weight: 600;
+font-weight: 600px;
 font-size: 60px;
 line-height: 70px;
 display: flex;
@@ -93,7 +93,7 @@ align-items: center;
 text-align: right;
 letter-spacing: 0.1em;
 padding-right: 50px;
-color: #ff5f3e;
+color:saddlebrown;
 /* color */
 padding-left: 1200px;
 padding-top: 100px;
@@ -105,16 +105,16 @@ img{
    left: 50px;
    padding: 50px;
    filter: drop-shadow(5px 4px 20px rgba(0, 0, 0, 0.25));
-   border-radius: 60px;
+   border-radius: 100px;
    height: 350px;
 
 }
 p{
-    padding-left: 1200px;
+    padding-left: 1000px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 50px;
     display: flex;
     align-items: stretch;
     text-align: right;
@@ -134,14 +134,16 @@ p{
     letter-spacing: 0.02em;
     padding-right: 50px;
     text-decoration:none;
-    color:#ff5f3e;
+    color:saddlebrown;
+    border-radius: 10px;
 }
+    
  .Facts:hover{
-    color: #ffab3e; /* Цвет ссылки */
+    color:antiquewhite; /* Цвет ссылки */
   font-size: 2em;
   font-weight: bold;
   line-height: 1;
   text-decoration: none;
-  -webkit-transition: all 1s ease;
-          transition: all 1s ease; /* Время изменения цвета */
+  -webkit-transition: all 2s ease;
+          transition: all 2s ease; /* Время изменения цвета */
  }
