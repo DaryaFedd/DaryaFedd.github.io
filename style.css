@@ -80,7 +80,6 @@ h1 {
     border-radius: 50px;
     background-color: #EEE6DC;
 border: 2px solid #5E615E;
-overflow: hidden
 
 }
 div{
@@ -90,7 +89,6 @@ top: 585px;
 left: 0;
 max-height: 1000px;
 overflow: hidden;
-border-radius: 80px;
 }
 h2{ 
 
