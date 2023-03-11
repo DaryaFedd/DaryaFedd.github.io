@@ -110,7 +110,7 @@ padding-top: 100px;
 img{
    display: flex;
    position:relative;
-   top: -750px;
+   top: -700px;
    left: 50px;
    padding: 50px;
    filter: drop-shadow(5px 4px 20px rgba(0, 0, 0, 0.25));
