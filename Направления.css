@@ -1,53 +1,42 @@
+body {
+    background: linear-gradient(180deg, #EEE6DC 67.34%, #998b7f 100%);
+}
 
-.badges{
-    height: 25px;
-   flex-direction: row;
-   float: right;
-   padding-right: 20px;
-}
-h1{
-    font-family:'Playfair Display';
- font-size: 64px;   
- margin-top: 40px;
- padding-left: 30px;
-}
-menu{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
-    font-size: 40px;
+.badges {
+    height: 30px;
+    flex-direction: row;
+    float: right;
     padding-right: 40px;
 }
-.line{
-    width: 100%;
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    margin-top: 20px;
 }
-.product{
- flex-wrap: wrap;
-flex-direction: column;
-align-items: left;
-padding-bottom: 60px;
-max-width: 1300px;
-margin: auto;
-}
-.image_product{
-    height: 220px;
-    width: 220px;
-}
-.product_name{
-    font-family:'Open Sans';
+h2{
     font-size: 30px;
-    align-items:center;
-    color:#5E615E;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+   
+}
+
+menu {
+    max-width: 100%;
+    flex: 0 0 24%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
     
 
 }
-.price{
-font-size: 30px;
-display: flex; 
-flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1500px;
-    margin: auto;
+.line {
+    width: 100%;
+    margin-top: -10px;
 }
